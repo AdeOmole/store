@@ -45,13 +45,14 @@ h5 {
 
 .nav-container{
     background: #FFFFFF;
-    width: 1110px;
+    width: 100%;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
 }
 .hero{
     position: static;
-    height: 505px;
+    height: 480px;
     margin-top: 20px;
     background: #E5E5E5;
     
@@ -106,23 +107,23 @@ h5 {
 .products{
     position: relative;
     width: 100%;
-    height: 270px;
+    height: 220px;
     /* padding-top: 100px; */
     margin-top: 40px;
     display: table;
 }
 .product-box1 {
     position: relative;
-    width: 540px;
-    height: 270px;
+    width: 435px;
+    height: 220px;
     display: inline-block;
 
     background: #E5E5E5;
 }
 .product-box2 {
-    position: relative;
-    width: 540px;
-    height: 270px;
+    /* position: relative; */
+    width: 435px;
+    height: 220px;
     margin-left: 30px;
     text-align: right;
     display: inline-block;
@@ -161,7 +162,7 @@ h5 {
     
 }
 .card-bg{
-    width: 255px;
+    width: 206px;
     height: 381px;
     left: 165px;
     bottom: 0px;
@@ -169,10 +170,10 @@ h5 {
 }
 .card-text{
     position: absolute;
-    width: 207px;
-    height: 160px;
-    bottom: 20px;
-    margin: 0px 24px auto;
+    width: 170px;
+    height: 191px;
+    bottom: 14px;
+    margin: 0px 18px auto;
 }
 .new-price{
     font-family: 'Ubuntu', sans-serif;
@@ -194,6 +195,6 @@ h5 {
 
 .card img{
     position: absolute;
-    left: 24px;
+    left: 18px;
     margin-top: -40px;
 }
